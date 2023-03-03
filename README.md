@@ -1,2 +1,5 @@
-# dragaliaLifeIndex
-An index of all the comics in Dragalia Lost, including Dragalia Life, Notte's Super Rad Plot Synopsis, and the Adventurer's Guide
+# ゆるがりあ・まとめ
+
+* This project is forked from original. Currently, it specifically supports for Japanese.
+
+468話まで（すべて）の「ゆるがりあ」を保存・閲覧できるようにしています。
