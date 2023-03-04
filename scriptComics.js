@@ -99,7 +99,7 @@ function loadComicBelow() {
     lan +
     "/" +
     numb +
-    ".png'>";
+    ( numb > 452 ? ".jpg'>" : ".png'>");
   container.innerHTML += outputHTML;
   document.title = comicObject[numb][targetLocal];
 }
