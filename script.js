@@ -50,11 +50,9 @@ async function init() {
   document.querySelector("li.local").innerHTML += localOutput;
 }
 function loadCard(numCards = 24) {
-  if (currentComic == comicArray[comicArray.length]) {
-    return;
-  }
   for (i = 0; i < numCards; i++) {
-    if (currentComic < comicArray[comicArray.length]) {
+    if (currentComic > Math.max(comicArray[comicArray.length-1])) {
+      break;
     }
     let targetLocal = lan + "Name";
     let numb = currentComic - 1;
@@ -80,7 +78,7 @@ init();
 window.addEventListener("scroll", () => {
   if (
     window.scrollY + window.innerHeight >=
-    document.documentElement.scrollHeight
+    document.documentElement.scrollHeight - 1
   ) {
     loadCard();
   }
