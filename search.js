@@ -73,12 +73,12 @@ function search() {
     }
   }
   document.querySelector("#name").innerHTML =
-    "<h2>Comics with\u00A0<b>" +
-    query +
-    "</b>\u00A0in the name:</h2><div class='comics'></div>";
+    `<h2>「<b>${query}</b>」をタイトルに含む：</h2>` +
+    "<div class='comics'></div>";
   if (nameSearchOutput.length == 0) {
-    document.querySelector("#name").innerHTML +=
-      'No comics found containing "<b>' + query + '</b>"';
+    document.querySelector(
+      "#name"
+    ).innerHTML += `「<b>${query}</b>」をタイトルに含むお話は見つかりませんでした`;
   }
   for (i = 0; i < nameSearchOutput.length; i++) {
     let name = comicObject[nameSearchOutput[i]][targetLocal];
@@ -115,13 +115,14 @@ function search() {
       }
     }
   }
-  document.querySelector("#char").innerHTML =
-    "<h2>Comics featuring <b>" + query + "</b>:</h2><div class='comics'></div>";
+  document.querySelector(
+    "#char"
+  ).innerHTML = `<h2><b>${query}</b>が登場：</h2>`;
+  ("<div class='comics'></div>");
   if (!characterResult) {
-    document.querySelector("#char").innerHTML +=
-      '<span>No Character with the name <b>"' +
-      query +
-      '"</b> was found.</span>';
+    document.querySelector(
+      "#char"
+    ).innerHTML += `「<b>${query}</b>」が登場するお話は見つかりませんでした`;
   } else {
     for (i = 0; i < comicArray.length; i++) {
       if (comicObject[comicArray[i]]["characters"].includes(characterResult)) {
