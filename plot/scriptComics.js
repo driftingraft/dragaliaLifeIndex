@@ -38,7 +38,7 @@ async function init() {
   let navHTML =
     "<a href='index.html?lan=" +
     lan +
-    "'> ← 冒険記</a> | <form action='comic.html'><input type='number' name='no' placeholder='話数を入力' pattern='[0-9]+'><input type='hidden' name='lan' value='" +
+    "'> ← 冒険記</a> | <form action='comic.html'><input type='number' name='no' placeholder='話数を入力...' pattern='[0-9]+'><input type='hidden' name='lan' value='" +
     lan +
     "'></form>";
   document.querySelector(".top").innerHTML =

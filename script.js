@@ -28,9 +28,9 @@ async function init() {
   let navHTML =
     "<a href='index.html?lan=" +
     lan +
-    "'> ドラガリまんが・まとめ</a> | <form action='search.html'><input type='text' name='cq' placeholder='キーワードで検索...'><input type='hidden' name='lan' value='" +
+    "'> ドラガリまんが・まとめ</a> | <form action='search.html'><input type='text' name='cq' placeholder='キーワードやキャラ名...'><input type='hidden' name='lan' value='" +
     lan +
-    "'></form> | <form action='comic.html'><input type='number' name='no' placeholder='話数を入力' pattern='[0-9]+'><input type='hidden' name='lan' value='" +
+    "'></form> | <form action='comic.html'><input type='number' name='no' placeholder='話数を入力...' pattern='[0-9]+'><input type='hidden' name='lan' value='" +
     lan +
     "'></form>";
   document.querySelector(".top").innerHTML =

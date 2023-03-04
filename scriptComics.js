@@ -1,6 +1,8 @@
 let container = document.querySelector(".comic");
 let comicObject;
 let comicArray;
+let charObject;
+let charArray;
 let numb;
 let error = false;
 const params = new URLSearchParams(window.location.search);
@@ -20,6 +22,17 @@ async function init() {
         return Number(a) - Number(b);
       }));
     });
+  await fetch("./characters.json")
+    .then((response) => {
+      return response.json();
+    })
+    .then((output) => {
+      charObject = output;
+      return (charArray = Object.keys(output).sort(function (a, b) {
+        return Number(a) - Number(b);
+      }));
+    });
+
   if (!params.get("no")) {
     error = true;
     container.innerHTML =
@@ -38,9 +51,9 @@ async function init() {
   let navHTML =
     "<a href='index.html?lan=" +
     lan +
-    "'> ドラガリまんが・まとめ</a> | <form action='search.html'><input type='text' name='cq' placeholder='キーワードで検索...'><input type='hidden' name='lan' value='" +
+    "'> ドラガリまんが・まとめ</a> | <form action='search.html'><input type='text' name='cq' placeholder='キーワードやキャラ名...'><input type='hidden' name='lan' value='" +
     lan +
-    "'></form> | <form action='comic.html'><input type='number' name='no' placeholder='話数を入力' pattern='[0-9]+'><input type='hidden' name='lan' value='" +
+    "'></form> | <form action='comic.html'><input type='number' name='no' placeholder='話数を入力...' pattern='[0-9]+'><input type='hidden' name='lan' value='" +
     lan +
     "'></form>";
   document.querySelector(".top").innerHTML =
@@ -80,7 +93,13 @@ function loadComicBelow() {
 	<img src=\"$local/$comicFile\">
 	*/
   let targetLocal = lan + "Name";
-  let characters = comicObject[numb]["characters"];
+  let _characters = comicObject[numb]["characters"];
+  let characters = [];
+
+  _characters.forEach((element) => {
+    characters.push(charObject[element]["0"]);
+    console.log(charObject[element]["0"]);
+  });
   let outputHTML =
     `<h1 class='life episode' ep='${numb}'>` +
     comicObject[numb][targetLocal] +
