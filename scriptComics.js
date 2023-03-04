@@ -38,9 +38,9 @@ async function init() {
   let navHTML =
     "<a href='index.html?lan=" +
     lan +
-    "'> ドラガリまんが・まとめ</a> | <form action='search.html'><input type='text' name='cq' placeholder='Search...'><input type='hidden' name='lan' value='" +
+    "'> ドラガリまんが・まとめ</a> | <form action='search.html'><input type='text' name='cq' placeholder='キーワードで検索...'><input type='hidden' name='lan' value='" +
     lan +
-    "'></form> | <form action='comic.html'><input type='number' name='no' placeholder='Jump to Comic...' pattern='[0-9]+'><input type='hidden' name='lan' value='" +
+    "'></form> | <form action='comic.html'><input type='number' name='no' placeholder='話数を入力' pattern='[0-9]+'><input type='hidden' name='lan' value='" +
     lan +
     "'></form>";
   document.querySelector(".top").innerHTML =
@@ -69,14 +69,7 @@ async function init() {
   loadComicBelow();
 }
 function loadComicBelow() {
-  console.log(numb + ":" + comicArray.length);
-  if (numb == comicArray.length + 1) {
-    return;
-  }
   if (Number(numb) < 1 || Number(numb) > comicArray.length) {
-    container.innerHTML +=
-      "<div class='error'><b>ERROR:</b> Comic ID out of bounds.</div><a href='./'>Go back to home</a>";
-    console.error("ERROR: Comic ID out of bounds.");
     return;
   }
   /*
@@ -99,7 +92,7 @@ function loadComicBelow() {
     lan +
     "/" +
     numb +
-    ( numb > 452 ? ".jpg'>" : ".png'>");
+    (numb > 452 ? ".jpg'>" : ".png'>");
   container.innerHTML += outputHTML;
   document.title = comicObject[numb][targetLocal];
 }
@@ -107,7 +100,7 @@ init();
 window.addEventListener("scroll", () => {
   if (
     window.scrollY + window.innerHeight >=
-    document.documentElement.scrollHeight
+    document.documentElement.scrollHeight - 1
   ) {
     let conNumb = Number(numb) + 1;
     conNumb = conNumb.toString();

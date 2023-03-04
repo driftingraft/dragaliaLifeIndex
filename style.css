@@ -295,22 +295,34 @@ a.comicCard:hover .comicNumb,a.comicCard:hover .comicName{
 .thumb{
 	width: 100%;
 }
-@media (min-width: 1001px) {
-	#collapse {
-		display: none;
-	}
+.top, .topCollapse {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	height: 30px;
+}
+.top {
+	display: none!important;
+}
+.topCollapse {
+	display: flex!important;
+}
+#collapse {
+	position: fixed;
+	z-index: 90;
+	top: 50px;
+	right: 0;
+	opacity: .95;
+}
+div.header-spacing {
+	width: 100%;
+	height: 50px;
+	display: block;
+	z-index: 0;
 }
 @media (max-width: 1200px) {
 	.comics{
 		grid-template-columns: 1fr 1fr 1fr;
-	}
-}
-@media (max-width: 1000px) {
-	.top{
-		display: none;
-	}
-	.topCollapse{
-		display: flex;
 	}
 }
 @media (max-width: 800px) {
@@ -350,4 +362,7 @@ a.comicCard:hover .comicNumb,a.comicCard:hover .comicName{
 	max-width: 608px;
 	width: 100%;
 	border: 2px solid black;
+}
+.comic img {
+	margin-bottom: 1em;
 }
