@@ -101,6 +101,17 @@ hr{
 	text-align: center;
 	font-size: 20px;
 }
+.links .linkList img.naviBtnImg {
+	mask-mode: luminance;
+	mask-size: cover;
+	width: 100%;
+}
+.links .linkList .naviBtn {
+	display: inline-block;
+	width: 190px;
+	font-size: .9em;
+	line-height: .9em;
+}
 #about{
 	transition: all .5s;
 	background: rgba(0,0,0,.4);
@@ -179,11 +190,13 @@ hr{
 	margin: 10px;
 	font-size: 16px;
 }
-.links button{
-	color: black;
-	background: #8cd3b1;
-	border: 0;
-	padding: 8px;
+.aboutBtnDiv {
+	width: 100%;
+	text-align: center;
+	padding-bottom:1em;
+}
+.aboutBtnDiv button {
+	font-size: .8em;
 	cursor: pointer;
 }
 .top {
@@ -366,3 +379,56 @@ div.header-spacing {
 .comic img {
 	margin-bottom: 1em;
 }
+
+h1 {
+	position: relative;
+	color: #158b2b;
+	font-size: 28px;
+	padding: 10px 0;
+	text-align: center;
+	margin: 1.5em 0;
+	text-align: center;
+  }
+  h1::after {
+	content: "";
+	position: absolute;
+	top: -8px;
+	left: 50%;
+	width: 150px;
+	height: 58px;
+	border-radius: 50%;
+	border: 5px solid #a6ddb0;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+  }
+  h1.episode::before {
+	content: attr(ep);
+	font-size: 50%;
+	margin-right: 5px;
+  }
+  h1.life {
+	color: #158b7f;
+  }
+  h1.life::before {
+	border-color: #a6c1dd;
+	border-left-color: transparent;
+	border-right-color: transparent;
+  }
+  h1.plot {
+	color: #878b15;
+  }
+  h1.plot::after {
+	border-color: #dddda6;
+	border-left-color: transparent;
+	border-right-color: transparent;
+  }
+  h1.guide {
+	color: #158b2b;
+  }
+  h1.guide::before {
+	border-color: #a6ddb0;
+	border-left-color: transparent;
+	border-right-color: transparent;
+  }

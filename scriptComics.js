@@ -4,7 +4,7 @@ let comicArray;
 let numb;
 let error = false;
 const params = new URLSearchParams(window.location.search);
-let lan = "en";
+let lan = "ja";
 if (params.get("lan")) {
   lan = params.get("lan");
 }
@@ -82,7 +82,7 @@ function loadComicBelow() {
   let targetLocal = lan + "Name";
   let characters = comicObject[numb]["characters"];
   let outputHTML =
-    "<h1>" +
+    `<h1 class='life episode' ep='${numb}'>` +
     comicObject[numb][targetLocal] +
     "</h1>" +
     "<div class='info'><h3>Characters</h3>" +

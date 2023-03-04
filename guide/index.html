@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="../style.css" />
-    <title>ドラガリのはじめかた！</title>
+    <title>ドラガリのはじめかた！・まとめ</title>
   </head>
   <body>
     <div class="top" id="top">
@@ -29,7 +29,7 @@
       </div>
     </div>
     <div class="topCollapse">
-      <a href="../index.html?lan=jp">ゆるがりあ・まとめ</a>
+      <a href="../index.html?lan=jp">ドラガリまんが・まとめ</a>
       <button
         onclick="document.querySelector('#collapse').classList.toggle('hidden')"
       >
@@ -51,24 +51,6 @@
     </div>
     <div id="collapse" class="hidden">
       <ul>
-        <li>
-          <form action="search.html">
-            <input type="text" name="cq" placeholder="キーワードで検索..." />
-            <input type="submit" value="Search" />
-          </form>
-        </li>
-        <li>
-          <form action="comic.html">
-            <input
-              type="number"
-              name="no"
-              placeholder="話数を入力"
-              pattern="[0-9]+"
-            />
-            <input type="hidden" name="lan" value="en" />
-            <input type="submit" value="Go" />
-          </form>
-        </li>
         <li class="local">
           <span class="icon"
             ><svg
@@ -88,9 +70,40 @@
           </span>
         </li>
       </ul>
+      <div class="aboutBtnDiv">
+        <button onclick="toggleAbout()">このページについて</button>
+      </div>
     </div>
     <div class="header-spacing"></div>
-    <h1 style="text-align: center">ドラガリのはじめかた！</h1>
+    <div class="links">
+      <div class="linkList">
+        <a href="../" class="naviBtn"
+          ><img
+            class="naviBtnImg"
+            src="../files/life_jp.jpg"
+            alt="ゆるがりあ"
+            style="mask-image: url('../files/life_jp_mask.jpg')"
+          /><span>ゆるがりあ</span></a
+        >
+        <a href="../plot/" class="naviBtn"
+          ><img
+            class="naviBtnImg"
+            src="../files/plot_jp.jpg"
+            alt="冒険記"
+            style="mask-image: url('../files/plot_jp_mask.jpg')"
+          />冒険記</a
+        >
+        <a href="../guide/" class="naviBtn"
+          ><img
+            class="naviBtnImg"
+            src="../files/guide_jp.jpg"
+            alt="はじめかた"
+            style="mask-image: url('../files/guide_jp_mask.jpg')"
+          />はじめかた</a
+        >
+      </div>
+    </div>
+    <h1 class="guide">ドラガリのはじめかた！(全10話)</h1>
     <div class="comics"></div>
     <script type="text/javascript" src="script.js"></script>
   </body>

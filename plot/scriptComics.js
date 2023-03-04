@@ -79,7 +79,7 @@ function loadComicBelow() {
 	*/
   let targetLocal = lan + "Name";
   let outputHTML =
-    "<h1>" +
+    `<h1 class='plot episode' ep='${numb}'>` +
     comicObject[numb][targetLocal] +
     "</h1><img src='" +
     lan +

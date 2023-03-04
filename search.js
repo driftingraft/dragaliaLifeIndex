@@ -3,7 +3,7 @@ let comicArray;
 let charObject;
 let charArray;
 const params = new URLSearchParams(window.location.search);
-let lan = "en";
+let lan = "jp";
 if (params.get("lan")) {
   lan = params.get("lan");
 }
