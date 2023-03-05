@@ -381,8 +381,11 @@ div.header-spacing {
   width: 100%;
   border: 2px solid black;
 }
-.comic img {
-  margin-bottom: 1em;
+.comic .img-container {
+  margin-bottom: 3em;
+}
+.comic .img-container p {
+  color: #dda6d7;
 }
 
 h1 {
@@ -408,6 +411,9 @@ h1::after {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
 }
+h1.episode {
+  margin: 0.5em;
+}
 h1.episode::before {
   content: attr(ep);
   font-size: 50%;
@@ -432,8 +438,16 @@ h1.plot::after {
 h1.guide {
   color: #158b2b;
 }
-h1.guide::before {
+h1.guide::after {
   border-color: #a6ddb0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+h1.minis {
+  color: #87158b;
+}
+h1.minis::after {
+  border-color: #dda6d7;
   border-left-color: transparent;
   border-right-color: transparent;
 }
@@ -441,4 +455,15 @@ img.github-logo,
 img.twitter-logo {
   height: 1em;
   vertical-align: text-bottom;
+}
+.naviBtn.minis {
+  margin-left: 6px;
+}
+.naviBtn.minis img {
+  object-fit: cover;
+  height: 64px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 3px black;
+  vertical-align: 2px;
+  border-radius: 5px;
 }

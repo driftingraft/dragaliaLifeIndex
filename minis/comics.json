@@ -21,7 +21,7 @@
   },
   "006": {
     "jpName": "真マーキュリー。",
-    "characters": ["Prometheus", "High Mercury", "Phoenix"]
+    "characters": ["Prometheus", "Mercury", "Phoenix"]
   },
   "007": {
     "jpName": "ポテチにプリンにメロンソーダ。__#うりぼうも一緒に遊びたがってるのかな",
@@ -29,7 +29,7 @@
   },
   "008": {
     "jpName": "あつまるあつまる。",
-    "characters": ["Zodiark", "Juggernaut (Dragon)|Juggernaut", "Midgardsormr"]
+    "characters": ["Zodiark", "Juggernaut", "Midgardsormr"]
   },
   "009": { "jpName": "ゆきだま♪", "characters": ["Midgardsormr", "Maritimus"] },
   "010": {
@@ -45,9 +45,9 @@
   "014": {
     "jpName": "ドラコ__ファフニール__ファフニ・ロイIII世←New!",
     "characters": [
-      "Gold Fafnir (Dragon)|Gold Fafnir",
-      "Silver Fafnir (Dragon)|Silver Fafnir",
-      "Bronze Fafnir (Dragon)|Bronze Fafnir",
+      "Gold Fafnir",
+      "Silver Fafnir",
+      "Bronze Fafnir",
       "Moon Drake",
       "Gloom Drake",
       "Cinder Drake",
@@ -106,7 +106,7 @@
   },
   "027": {
     "jpName": "真ゾディアーク。",
-    "characters": ["Jupiter", "Midgardsormr", "Zodiark", "High Zodiark"]
+    "characters": ["Jupiter", "Midgardsormr", "Zodiark", "Zodiark"]
   },
   "028": {
     "jpName": "もうすぐ1周年！",
@@ -116,7 +116,7 @@
     "jpName": "しもしも？",
     "characters": ["Brunhilda", "Mercury", "Midgardsormr", "Chthonius"]
   },
-  "030": { "jpName": "望み。", "characters": ["Chronos (NPC)"] },
+  "030": { "jpName": "望み。", "characters": ["Chronos"] },
   "031": {
     "jpName": "カミングスーン。",
     "characters": [
@@ -133,7 +133,7 @@
   },
   "033": {
     "jpName": "白と黒",
-    "characters": ["Nyarlathotep (NPC)", "Long Long", "Nyarlathotep"]
+    "characters": ["Nyarlathotep", "Long Long", "Nyarlathotep"]
   },
   "034": { "jpName": "どの味にする？", "characters": ["Hastur"] },
   "035": { "jpName": "秋の湯。", "characters": ["Kagutsuchi", "Freyja"] },
@@ -159,7 +159,7 @@
       "Midgardsormr",
       "Cinder Drake",
       "Jupiter",
-      "Gold Fafnir (Dragon)|Gold Fafnir"
+      "Gold Fafnir"
     ]
   },
   "041": {
@@ -218,7 +218,7 @@
     "jpName": "4兄弟。",
     "characters": ["Atlas", "Epimetheus", "Prometheus", "Menoetius"]
   },
-  "048": { "jpName": "Let's 改造☆", "characters": ["Gala Mars"] },
+  "048": { "jpName": "Let's 改造☆", "characters": ["Mars"] },
   "049": {
     "jpName": "らぶ♡",
     "characters": ["Midgardsormr", "Cupid", "Phantom"]
@@ -263,7 +263,8 @@
       "Brunhilda",
       "Midgardsormr",
       "Jupiter",
-      "Divine Dragon|Tiki",
+      "Divine Dragon",
+      "Tiki",
       "Mercury"
     ]
   },
@@ -298,14 +299,14 @@
     ]
   },
   "066": { "jpName": "どうぞ。", "characters": ["Morsayati", "Magma Slime"] },
-  "067": { "jpName": "ケットシー。", "characters": ["Gala Cat Sith"] },
+  "067": { "jpName": "ケットシー。", "characters": ["Cat Sith"] },
   "068": {
     "jpName": "仲良しステュクス。",
-    "characters": ["Sam", "Styx (NPC)"]
+    "characters": ["Sam", "Styx"]
   },
   "069": {
     "jpName": "夕飯なにする。",
-    "characters": ["Simurgh", "Mercury", "Freyja", "Chronos (NPC)", "Maritimus"]
+    "characters": ["Simurgh", "Mercury", "Freyja", "Chronos", "Maritimus"]
   },
   "070": {
     "jpName": "ユピテルの妄想。",
@@ -313,12 +314,12 @@
   },
   "071": {
     "jpName": "ひぃちゃん。",
-    "characters": ["Palm Treant", "Summer Konohana Sakuya", "Midgardsormr"]
+    "characters": ["Konohana Sakuya", "Midgardsormr"]
   },
   "072": {
     "jpName": "夏！",
     "characters": [
-      "Chronos (NPC)",
+      "Chronos",
       "Midgardsormr",
       "Epimetheus",
       "Siren",
@@ -332,7 +333,7 @@
     "jpName": "ダーリン♡",
     "characters": ["The Prince", "Brunhilda", "Jupiter", "Zodiark", "Mercury"]
   },
-  "075": { "jpName": "目玉焼きにはソース派。", "characters": ["Gala Thor"] },
+  "075": { "jpName": "目玉焼きにはソース派。", "characters": ["Thor"] },
   "076": { "jpName": "たまに毒舌。", "characters": ["Ramiel"] },
   "077": { "jpName": "ハチミツ。", "characters": ["Sandalphon"] },
   "078": {
@@ -361,24 +362,24 @@
     "characters": [
       "Midgardsormr",
       "Brunhilda",
-      "Gala Cat Sith",
+      "Cat Sith",
       "Mercury",
       "Jupiter",
       "Zodiark"
     ]
   },
-  "085": { "jpName": "腰痛治った。", "characters": ["Gala Reborn Poseidon"] },
+  "085": { "jpName": "腰痛治った。", "characters": ["Poseidon"] },
   "086": {
     "jpName": "◜ᴗ◝",
     "characters": ["Midgardsormr", "Jupiter", "Giovanni"]
   },
   "087": {
     "jpName": "なにして遊ぶ？",
-    "characters": ["Midgardsormr", "Brunhilda", "Gala Mars", "Jeanne d'Arc"]
+    "characters": ["Midgardsormr", "Brunhilda", "Mars", "Jeanne d'Arc"]
   },
   "088": {
     "jpName": "そろそろカレー。",
-    "characters": ["Gala Mars", "Gala Leonidas"]
+    "characters": ["Mars", "Leonidas"]
   },
   "089": {
     "jpName": "やばいですね☆__#プリコネ__#プリコネR",
@@ -386,13 +387,13 @@
   },
   "090": {
     "jpName": "どれにしようかな。",
-    "characters": ["Chronos (NPC)|Chronos", "Aether (NPC)|Aether"]
+    "characters": ["Chronos", "Aether"]
   },
   "091": {
     "jpName": "もうすぐ星竜祭。",
     "characters": ["Midgardsormr", "Brunhilda", "Mercury", "Jupiter", "Zodiark"]
   },
-  "092": { "jpName": "ヨロシクヤン。", "characters": ["Gala Reborn Zephyr"] },
+  "092": { "jpName": "ヨロシクヤン。", "characters": ["Zephyr"] },
   "093": {
     "jpName": "よいお年を。",
     "characters": ["Midgardsormr", "Brunhilda", "Mercury", "Jupiter", "Zodiark"]
@@ -400,14 +401,14 @@
   "094": { "jpName": "モウ怖くない。", "characters": ["Gozu Tenno"] },
   "095": { "jpName": "がぶがぶ。", "characters": ["Liger", "Maritimus"] },
   "096": { "jpName": "🤔", "characters": ["Midgardsormr"] },
-  "097": { "jpName": "My Dear💕", "characters": ["Chelle", "Gala Cat Sith"] },
+  "097": { "jpName": "My Dear💕", "characters": ["Chelle", "Cat Sith"] },
   "098": {
     "jpName": "ドラガリ × P5S__#P5S__#アルセーヌ",
-    "characters": ["Arsene", "Midgardsormr", "Joker"]
+    "characters": ["Arsene", "Midgardsormr", "Arsène"]
   },
   "099": {
     "jpName": "ドラガリ × P5S__#P5S__#カルメン",
-    "characters": ["Brunhilda", "Carmen (Persona)", "Panther"]
+    "characters": ["Brunhilda", "Carmen"]
   },
   "100": {
     "jpName": "100回目　ありがとう！",
@@ -418,8 +419,8 @@
       "Jupiter",
       "Zodiark",
       "Chthonius",
-      "Gala Mars",
-      "Gala Thor",
+      "Mars",
+      "Thor",
       "Agni",
       "Zephyr",
       "Jeanne d'Arc",
@@ -427,7 +428,7 @@
       "Poseidon",
       "Maritimus",
       "Nyarlathotep",
-      "Gala Cat Sith",
+      "Cat Sith",
       "Juggernaut",
       "Phoenix",
       "Lindworm",
@@ -442,7 +443,7 @@
     "jpName": "強くなれ。",
     "characters": ["Menoetius", "Epimetheus", "Prometheus"]
   },
-  "102": { "jpName": "シュワワワ。", "characters": ["Gala Reborn Jeanne"] },
+  "102": { "jpName": "シュワワワ。", "characters": ["Jeanne"] },
   "103": { "jpName": "溺愛。", "characters": ["Gabriel"] },
   "104": {
     "jpName": "きっとクール。",
@@ -456,7 +457,7 @@
   "105": { "jpName": "すやール。", "characters": ["Mercury", "Emile"] },
   "106": {
     "jpName": "真プルートー。",
-    "characters": ["High Chthonius", "Brunhilda", "Midgardsormr"]
+    "characters": ["Chthonius", "Brunhilda", "Midgardsormr"]
   },
   "107": {
     "jpName": "ワンダフルデイ！",
@@ -472,7 +473,7 @@
   },
   "110": {
     "jpName": "うさぎさんと仲良し。",
-    "characters": ["Gala Reborn Agni"]
+    "characters": ["Agni"]
   },
   "111": {
     "jpName": "ローズクイーン。",
@@ -497,29 +498,23 @@
     "jpName": "1000日ありがとう！",
     "characters": ["Jupiter", "Zodiark", "Midgardsormr", "Brunhilda", "Mercury"]
   },
-  "119": { "jpName": "キノコを食え🍄", "characters": ["Gala Reborn Nidhogg"] },
+  "119": { "jpName": "キノコを食え🍄", "characters": ["Nidhogg"] },
   "120": {
     "jpName": "海デート💖",
-    "characters": ["Brunhilda", "Leviathan", "Summer Mym"]
+    "characters": ["Brunhilda", "Leviathan", "Mym"]
   },
   "121": {
     "jpName": "勝負！",
-    "characters": ["Gozu Tenno", "Daikokuten", "Summer Marishiten"]
+    "characters": ["Gozu Tenno", "Daikokuten", "Marishiten"]
   },
   "122": { "jpName": "変身♪", "characters": ["Sylvia", "Hypnos"] },
   "123": {
     "jpName": "一緒に(？)砂遊び。",
-    "characters": ["Gala Mars", "Brunhilda", "Summer Mym"]
+    "characters": ["Mars", "Brunhilda", "Mym"]
   },
   "124": {
     "jpName": "Lazy summer days!!",
-    "characters": [
-      "Summer Cat Sith",
-      "Gala Mars",
-      "Summer Marishiten",
-      "Gozu Tenno",
-      "Daikokuten"
-    ]
+    "characters": ["Cat Sith", "Mars", "Marishiten", "Gozu Tenno", "Daikokuten"]
   },
   "125": {
     "jpName": "おにわのなつ🌻",
@@ -533,7 +528,7 @@
     "jpName": "見えてる？",
     "characters": ["Jupiter", "Mercury", "Zodiark", "Brunhilda"]
   },
-  "128": { "jpName": "犬じゃなイ…？", "characters": ["Gala Beast Volk"] },
+  "128": { "jpName": "犬じゃなイ…？", "characters": ["Beast Volk"] },
   "129": {
     "jpName": "はっけよい！",
     "characters": ["Midgardsormr", "Takemikazuchi"]
@@ -545,11 +540,11 @@
   },
   "132": {
     "jpName": "3rd Anniversary!__#ドラガリ3周年",
-    "characters": ["Zethia", "Mini Jupi"]
+    "characters": ["Zethia", "Jupiter"]
   },
   "133": {
     "jpName": "遊びに来たよ。",
-    "characters": ["Gala Bahamut", "Rose Queen", "Cerberus", "Azazel"]
+    "characters": ["Bahamut", "Rose Queen", "Cerberus", "Azazel"]
   },
   "134": {
     "jpName": "てんしたちの。",
@@ -569,7 +564,7 @@
       "Zodiark"
     ]
   },
-  "137": { "jpName": "我が王💖", "characters": ["Gala Chronos Nyx"] },
+  "137": { "jpName": "我が王💖", "characters": ["Chronos Nyx"] },
   "138": { "jpName": "ごまかせないよ!!", "characters": ["Humanoid Jupiter"] },
   "139": { "jpName": "旅はいいぞ。", "characters": ["Uriel"] },
   "140": {
@@ -588,10 +583,10 @@
     "jpName": "かたづけようね。",
     "characters": ["Satan", "Bahamut", "Azazel", "Rose Queen", "Cerberus"]
   },
-  "144": { "jpName": "進化～。", "characters": ["Ayaha &amp; Otoha"] },
+  "144": { "jpName": "進化～。", "characters": ["Ayaha & Otoha"] },
   "145": {
     "jpName": "ズズッ。",
-    "characters": ["Ayaha &amp; Otoha", "Ciella", "Tartarus", "Volk", "Kai Yan"]
+    "characters": ["Ayaha & Otoha", "Ciella", "Tartarus", "Volk", "Kai Yan"]
   },
   "146": { "jpName": "1杯5ルピ。", "characters": ["Fudo Myo-o"] },
   "147": {
@@ -608,13 +603,7 @@
   },
   "150": {
     "jpName": "せんぱいたち。",
-    "characters": [
-      "Midgardsormr",
-      "Gala Mars",
-      "Gala Thor",
-      "Uranus",
-      "Gala Cat Sith"
-    ]
+    "characters": ["Midgardsormr", "Mars", "Thor", "Uranus", "Cat Sith"]
   },
   "151": { "jpName": "おさんぽ。", "characters": ["Michael", "Basileus"] },
   "152": {
@@ -625,7 +614,7 @@
     "jpName": "ミステリアス…？",
     "characters": ["Humanoid Zodiark", "Jupiter", "Brunhilda", "Zodiark"]
   },
-  "154": { "jpName": "人の仔よ…。", "characters": ["Gala Elysium"] },
+  "154": { "jpName": "人の仔よ…。", "characters": ["Elysium"] },
   "155": {
     "jpName": "まごころ注入💗",
     "characters": [
@@ -674,7 +663,7 @@
       "Uranus",
       "Zephyr",
       "Chthonius",
-      "Gala Mars",
+      "Mars",
       "Poseidon",
       "Zephyr Imp",
       "Hikage",
@@ -683,10 +672,10 @@
       "Jeanne d'Arc",
       "Midgardsormr",
       "Nidhogg",
-      "Gala Thor",
+      "Thor",
       "Agni",
-      "Gala Cat Sith",
-      "Gala Chronos Nyx",
+      "Cat Sith",
+      "Chronos Nyx",
       "Brunhilda",
       "Zodiark",
       "Cinder Drake"

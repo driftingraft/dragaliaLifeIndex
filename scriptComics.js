@@ -107,12 +107,15 @@ function loadComicBelow() {
     "<div class='info'><h3>Characters</h3>" +
     characters +
     "</div>" +
+    `<div class="img-container">` +
     "<img src='" +
     lan +
     "/" +
     numb +
-    (numb > 452 ? ".jpg'>" : ".png'>");
+    (numb > 452 ? ".jpg'>" : ".png'>") +
+    `</div>`;
   container.innerHTML += outputHTML;
+
   document.title = comicObject[numb][targetLocal];
 }
 init();

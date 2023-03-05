@@ -81,12 +81,16 @@ function loadComicBelow() {
   let outputHTML =
     `<h1 class='plot episode' ep='${numb}'>` +
     comicObject[numb][targetLocal] +
-    "</h1><img src='" +
+    "</h1>" +
+    `<div class="img-container">` +
+    "<img src='" +
     lan +
     "/" +
     numb +
-    ".png'>";
+    ".png'>" +
+    `</div>`;
   container.innerHTML += outputHTML;
+
   document.title = comicObject[numb][targetLocal];
 }
 init();

@@ -81,7 +81,7 @@ function search() {
     ).innerHTML += `「<b>${query}</b>」をタイトルに含むお話は見つかりませんでした`;
   }
   for (i = 0; i < nameSearchOutput.length; i++) {
-    let name = comicObject[nameSearchOutput[i]][targetLocal];
+    let name = comicObject[nameSearchOutput[i]][targetLocal].split("__")[0];
     nameHTML +=
       "<a class='card comicCard' href='comic.html?no=" +
       nameSearchOutput[i] +
@@ -131,7 +131,7 @@ function search() {
     }
   }
   for (i = 0; i < comicCharOutput.length; i++) {
-    let name = comicObject[comicCharOutput[i]][targetLocal];
+    let name = comicObject[comicCharOutput[i]][targetLocal].split("__")[0];
     charHTML +=
       "<a class='card comicCard' href='comic.html?no=" +
       comicCharOutput[i] +

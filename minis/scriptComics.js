@@ -23,7 +23,7 @@ async function init() {
         return Number(a) - Number(b);
       }));
     });
-  await fetch("../characters.json")
+  await fetch("./characters.json")
     .then((response) => {
       return response.json();
     })
@@ -100,10 +100,14 @@ function loadComicBelow() {
   let _characters = comicObject[numb]["characters"];
   let characters = [];
 
-  /*_characters.forEach((element) => {
-    characters.push(charObject[element]["0"]);
-    console.log(charObject[element]["0"]);
-  });*/
+  _characters.forEach((element) => {
+    try {
+      characters.push(charObject[element]["0"]);
+      //console.log(charObject[element]["0"]);
+    } catch (e) {
+      console.log(element);
+    }
+  });
   let outputHTML =
     `<h1 class='minis episode' ep='${numb}'>` +
     comicObject[numb][targetLocal].split("__")[0] +
@@ -111,6 +115,7 @@ function loadComicBelow() {
     "<div class='info'><h3>Characters</h3>" +
     characters +
     "</div>" +
+    `<div class="img-container">` +
     "<img src='" +
     lan +
     "/" +
@@ -121,7 +126,8 @@ function loadComicBelow() {
   if (tData.length > 0) {
     outputHTML += "<p>" + tData.join("<br>") + "</p>";
   }
-  container.innerHTML += `<div class="img-container">${outputHTML}</div>`;
+  outputHTML += `</div>`;
+  container.innerHTML += outputHTML;
   document.title = comicObject[numb][targetLocal];
 }
 init();
