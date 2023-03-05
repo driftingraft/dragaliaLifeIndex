@@ -1,440 +1,444 @@
 * {
-	margin: 0;
-	font-family: monospace;
+  margin: 0;
+  font-family: monospace;
 }
-html{
-	width: 100vw;
+html {
+  width: 100vw;
 }
-body{
-	width: 100vw;
+body {
+  width: 100vw;
 }
-hr{
-	margin: 10px;
+hr {
+  margin: 10px;
 }
 .error {
-	color: red;
+  color: red;
 }
 #collapse.hidden {
-	display: none;
-}
-.topCollapse{
-	display: none;
-	background: #8cd3b1;
-	font-size: 25px;
-	padding: 5px;
-	color: white;
-	position: relative;
-	margin-bottom: 10px;
-	box-shadow: 0 2px 2px rgba(0,0,0,.5);
-	height: 30px;
-	line-height: 30px;
-	width: 100vw;
-	justify-content: space-between
-}
-.topCollapse a {
-	color: black;
-	text-decoration: none;
-	margin-left: 5px;
-}
-.topCollapse button{
-	height:	30px;
-	width: 30px;
-	color: black;
-	background: transparent;
-	border: 0;
-	padding: 0;
-	margin-right: 30px;
-	cursor: pointer;
-}
-#collapse{
-	background: #70a98e;
-	margin-top: -10px;
-	margin-bottom: 10px;
-	box-shadow: inset 0 -2px 2px rgba(0,0,0,.5);
-	font-size: 20px;
-}
-#collapse ul{
-	list-style: none;
-	padding: 10px;
-}
-#collapse ul li {
-	padding: 10px;
-	color: black;
-}
-#collapse ul li form{
-	display: flex;
-}
-#collapse ul li input{
-	height: 25px;
-	font-size: 20px;
-	border: 0;
-	border-radius: 5px;
-	margin-right: 0;
-}
-#collapse ul li input::placeholder{
-	font-size: 80%;
-}
-#collapse ul li input:nth-of-type(1){
-	border-radius: 8px 0 0 8px;
-	padding-left: 8px;
-}
-#collapse ul li input[type="submit"]{
-	color: black;
-	background: #8cd3b1;
-	border-radius: 0 8px 8px 0;
-	cursor: pointer;
-}
-#collapse .local{
-	height: 30px;
-	line-height: 30px;
-}
-#collapse .local a{
-	color: black;
-	text-decoration: none;
-	padding-left: 2px;
-	padding-right: 2px;
-}
-#collapse .local a.selected{
-	background: black;
-	color: #70a98e;
-	border-radius: 4px;
-	font-weight: bold;
-}
-.links{
-	text-align: center;
-	font-size: 20px;
-}
-.links .linkList img.naviBtnImg {
-	mask-mode: luminance;
-	mask-size: cover;
-	width: 100%;
-}
-.links .linkList .naviBtn {
-	display: inline-block;
-	width: 190px;
-	font-size: .9em;
-	line-height: .9em;
-}
-.links .linkList .naviBtn:hover {
-	opacity: .8;
-}
-#about{
-	transition: all .5s;
-	background: rgba(0,0,0,.4);
-	backdrop-filter: blur(3px);
-	padding: 10px;
-	height: 100%;
-	position: fixed;
-	top: 0;
-	z-index: 2;
-	text-align: center;
-	font-size: 16px;
-	box-sizing: border-box;
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-
-}
-#about.hidden{
-	opacity: 0;
-	backdrop-filter: blur(0px);
-	pointer-events: none;
-}
-#about>div{
-	display: inline-block;
-	max-width: 80%;
-	background: white;
-	border-radius: 10px;
-	box-shadow: 4px 4px 10px rgba(0,0,0,.5);
-	padding: 20px;
-	position: relative;
-	text-align: center;
-	box-sizing: border-box;
-	padding-bottom: 50px;
-}
-.disableScroll{
-	overflow: hidden;
-}
-#about button{
-	background: transparent;
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	border: 0;
-	cursor: pointer;
-}
-#about button svg{
-	width: 100%;
-	height: 100%;
-}
-#about .bottom{
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	text-align: center;
-	padding: 10px;
-	font-size: 16px;
-	box-sizing: border-box;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 10px;
-	margin-top: 10px;
-}
-#about a{
-	color: #385447;
-}
-#about>div>div:not(.bottom){
-	margin-left: 100px;
-	margin-right: 100px;
-}
-#about p{
-	margin: 10px;
-	font-size: 16px;
-}
-.aboutBtnDiv {
-	width: 100%;
-	text-align: center;
-	padding-bottom:1em;
-}
-.aboutBtnDiv button {
-	font-size: .8em;
-	cursor: pointer;
-}
-.top {
-	background: #8cd3b1;
-	display: flex;
-	font-size: 20px;
-	padding: 5px;
-	color: black;
-	position: relative;
-	margin-bottom: 10px;
-	box-shadow: 0 2px 2px rgba(0,0,0,.5)
-}
-.top a {
-	color: black;
-	text-decoration: none;
-}
-.top .local a{
-	padding-left: 2px;
-	padding-right: 2px;
-	
-}
-.top .local a:hover, #collapse .local a:hover{
-	font-weight: bold;
-}
-.top .local{
-	position: absolute;
-	right: 0;
-	top: 0;
-	margin-right: 25px;
-	height: 100%;	
-	display: flex;
-	text-height: 33px;
-	align-items: center;
-	gap: 5px;
-}
-.top .selected{
-	background: black;
-	color: #8cd3b1;
-	font-weight: bold;
-	border-radius: 4px;
-}
-.icon {
-height: 100%;
-position: relative;
-margin-right: 30px;
-}
-.icon svg{
-	height: 100%;
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	
-}
-.top .icon {
-height: 80%;
-}
-	/* cards */
-.comics{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	column-gap: 10px;
-	row-gap: 10px;
-	width: 90%;
-	margin: 0 auto;
-}
-a.comicCard{
-	background: #8cd3b1;
-	border-radius: 10px;
-	overflow: hidden;
-	position: relative;
-	transition: all 400ms;
-	width: 100%;
-	text-decoration: none;
-	box-shadow: 2px 2px 2px rgba(0,0,0,.3);
-}
-a.comicCard:hover{
-	transform: scale(102%);
-}
-a.comicCard:hover .comicNumb,a.comicCard:hover .comicName{
-	background: rgba(0,0,0,.5)
-}
-.comicNumb{
-	transition: all 400ms;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: rgba(0,0,0,.3);
-	padding: .3rem;
-	color: white;
-	font-size: 2rem;
-	font-weight: bold;
-	transition: none;
-}
-.comicName{
-	transition: all 400ms;
-	color: white;
-	padding: 5px;
-	font-size: 20px;
-	position: absolute;
-	bottom: 0;
-	background: rgba(0,0,0,.3);
-	width: 100%;
-	transition: none;
-	text-shadow: -2px 2px 4px rgba(0,0,0,.6);
-	backdrop-filter: blur(2px);
-	box-sizing: border-box;
-}
-.thumb{
-	width: 100%;
-}
-.top, .topCollapse {
-	position: fixed;
-	z-index: 100;
-	width: 100%;
-	height: 30px;
-}
-.top {
-	display: none!important;
+  display: none;
 }
 .topCollapse {
-	display: flex!important;
+  display: none;
+  background: #8cd3b1;
+  font-size: 25px;
+  padding: 5px;
+  color: white;
+  position: relative;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  height: 30px;
+  line-height: 30px;
+  width: 100vw;
+  justify-content: space-between;
+}
+.topCollapse a {
+  color: black;
+  text-decoration: none;
+  margin-left: 5px;
+}
+.topCollapse button {
+  height: 30px;
+  width: 30px;
+  color: black;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  margin-right: 30px;
+  cursor: pointer;
 }
 #collapse {
-	position: fixed;
-	z-index: 90;
-	top: 50px;
-	right: 0;
-	opacity: .95;
+  background: #70a98e;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+#collapse ul {
+  list-style: none;
+  padding: 10px;
+}
+#collapse ul li {
+  padding: 10px;
+  color: black;
+}
+#collapse ul li form {
+  display: flex;
+}
+#collapse ul li input {
+  height: 25px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 0;
+}
+#collapse ul li input::placeholder {
+  font-size: 80%;
+}
+#collapse ul li input:nth-of-type(1) {
+  border-radius: 8px 0 0 8px;
+  padding-left: 8px;
+}
+#collapse ul li input[type="submit"] {
+  color: black;
+  background: #8cd3b1;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+#collapse .local {
+  height: 30px;
+  line-height: 30px;
+}
+#collapse .local a {
+  color: black;
+  text-decoration: none;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+#collapse .local a.selected {
+  background: black;
+  color: #70a98e;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.links {
+  text-align: center;
+  font-size: 20px;
+}
+.links .linkList img.naviBtnImg {
+  mask-mode: luminance;
+  mask-size: cover;
+  width: 100%;
+}
+.links .linkList .naviBtn {
+  display: inline-block;
+  width: 190px;
+  font-size: 0.9em;
+  line-height: 0.9em;
+}
+.links .linkList .naviBtn:hover {
+  opacity: 0.8;
+}
+#about {
+  transition: all 0.5s;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px);
+  padding: 10px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  text-align: center;
+  font-size: 16px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about.hidden {
+  opacity: 0;
+  backdrop-filter: blur(0px);
+  pointer-events: none;
+}
+#about > div {
+  display: inline-block;
+  max-width: 80%;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+.disableScroll {
+  overflow: hidden;
+}
+#about button {
+  background: transparent;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: 0;
+  cursor: pointer;
+}
+#about button svg {
+  width: 100%;
+  height: 100%;
+}
+#about .bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+#about a {
+  color: #385447;
+}
+#about > div > div:not(.bottom) {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#about p {
+  margin: 10px;
+  font-size: 16px;
+}
+.aboutBtnDiv {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1em;
+}
+.aboutBtnDiv button {
+  font-size: 0.8em;
+  cursor: pointer;
+}
+.top {
+  background: #8cd3b1;
+  display: flex;
+  font-size: 20px;
+  padding: 5px;
+  color: black;
+  position: relative;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+.top a {
+  color: black;
+  text-decoration: none;
+}
+.top .local a {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.top .local a:hover,
+#collapse .local a:hover {
+  font-weight: bold;
+}
+.top .local {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 25px;
+  height: 100%;
+  display: flex;
+  text-height: 33px;
+  align-items: center;
+  gap: 5px;
+}
+.top .selected {
+  background: black;
+  color: #8cd3b1;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.icon {
+  height: 100%;
+  position: relative;
+  margin-right: 30px;
+}
+.icon svg {
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.top .icon {
+  height: 80%;
+}
+/* cards */
+.comics {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+a.comicCard {
+  background: #8cd3b1;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: all 400ms;
+  width: 100%;
+  text-decoration: none;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+a.comicCard:hover {
+  transform: scale(102%);
+}
+a.comicCard:hover .comicNumb,
+a.comicCard:hover .comicName {
+  background: rgba(0, 0, 0, 0.5);
+}
+.comicNumb {
+  transition: all 400ms;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.3rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  transition: none;
+}
+.comicName {
+  transition: all 400ms;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  transition: none;
+  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+  box-sizing: border-box;
+}
+.thumb {
+  width: 100%;
+}
+.top,
+.topCollapse {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 30px;
+}
+.top {
+  display: none !important;
+}
+.topCollapse {
+  display: flex !important;
+}
+#collapse {
+  position: fixed;
+  z-index: 90;
+  top: 50px;
+  right: 0;
+  opacity: 0.95;
 }
 div.header-spacing {
-	width: 100%;
-	height: 50px;
-	display: block;
-	z-index: 0;
+  width: 100%;
+  height: 50px;
+  display: block;
+  z-index: 0;
 }
 @media (max-width: 1200px) {
-	.comics{
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+  .comics {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 @media (max-width: 800px) {
-	.comics{
-		grid-template-columns: 1fr 1fr;
-	}
-	#about>div{
-		margin: 0;
-		padding-bottom: 60px;
-	}
-	#about>div>div:not(.bottom) {
-		margin: 4px;
-	}
-	
+  .comics {
+    grid-template-columns: 1fr 1fr;
+  }
+  #about > div {
+    margin: 0;
+    padding-bottom: 60px;
+  }
+  #about > div > div:not(.bottom) {
+    margin: 4px;
+  }
 }
 @media (max-width: 700px) {
-	.comicName{
-		position: relative;
-		background: transparent;
-		color: black;
-		padding: 10px;
-		text-shadow: none;
-	}
-	a.comicCard:hover .comicName{
-		background: transparent;
-	}
-	a.comicCard:hover .comicNumb{
-		background: rgba(0,0,0,.3);
-	}
+  .comicName {
+    position: relative;
+    background: transparent;
+    color: black;
+    padding: 10px;
+    text-shadow: none;
+  }
+  a.comicCard:hover .comicName {
+    background: transparent;
+  }
+  a.comicCard:hover .comicNumb {
+    background: rgba(0, 0, 0, 0.3);
+  }
 }
 /* comics */
 .comic {
-	text-align: center;
-	width: 100%;
-}
-.comic img{
-	max-width: 608px;
-	width: 100%;
-	border: 2px solid black;
+  text-align: center;
+  width: 100%;
 }
 .comic img {
-	margin-bottom: 1em;
+  max-width: 608px;
+  width: 100%;
+  border: 2px solid black;
+}
+.comic img {
+  margin-bottom: 1em;
 }
 
 h1 {
-	position: relative;
-	color: #158b2b;
-	font-size: 28px;
-	padding: 10px 0;
-	text-align: center;
-	margin: 1.5em 0;
-	text-align: center;
-  }
-  h1::after {
-	content: "";
-	position: absolute;
-	top: -8px;
-	left: 50%;
-	width: 150px;
-	height: 58px;
-	border-radius: 50%;
-	border: 5px solid #a6ddb0;
-	border-left-color: transparent;
-	border-right-color: transparent;
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
-  }
-  h1.episode::before {
-	content: attr(ep);
-	font-size: 50%;
-	margin-right: 5px;
-  }
-  h1.life {
-	color: #158b7f;
-  }
-  h1.life::before {
-	border-color: #a6c1dd;
-	border-left-color: transparent;
-	border-right-color: transparent;
-  }
-  h1.plot {
-	color: #878b15;
-  }
-  h1.plot::after {
-	border-color: #dddda6;
-	border-left-color: transparent;
-	border-right-color: transparent;
-  }
-  h1.guide {
-	color: #158b2b;
-  }
-  h1.guide::before {
-	border-color: #a6ddb0;
-	border-left-color: transparent;
-	border-right-color: transparent;
-  }
+  position: relative;
+  color: #158b2b;
+  font-size: 28px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 1.5em 0;
+  text-align: center;
+}
+h1::after {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  width: 150px;
+  height: 58px;
+  border-radius: 50%;
+  border: 5px solid #a6ddb0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+h1.episode::before {
+  content: attr(ep);
+  font-size: 50%;
+  margin-right: 5px;
+}
+h1.life {
+  color: #158b7f;
+}
+h1.life::before {
+  border-color: #a6c1dd;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+h1.plot {
+  color: #878b15;
+}
+h1.plot::after {
+  border-color: #dddda6;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+h1.guide {
+  color: #158b2b;
+}
+h1.guide::before {
+  border-color: #a6ddb0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+img.github-logo,
+img.twitter-logo {
+  height: 1em;
+  vertical-align: text-bottom;
+}
