@@ -111,7 +111,110 @@
       </div>
     </div>
     <h1 class="plot">ナームのわくわく冒険記！(全32話)</h1>
+    <div id="about" class="hidden">
+      <div>
+        <h1>ABOUT</h1>
+        <button onclick="toggleAbout()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+        <div>
+          <p>「ドラガリアロスト」公式マンガのミラー公開を行っています。</p>
+          <p>
+            これらのコンテンツは公式サイト（およびゲーム内）にて閲覧が可能でしたが、
+            2023年3月現在、公式サイトのものはリンク切れ状態となっており、
+            かつTwitterには全話が公開されていないため、いわゆる『補完庫』として
+            情報を整理、追記した上での公開をしております。
+          </p>
+          <p>
+            公式サイトが非公開となった後から、
+            途中まで集積されていた海外勢のGithubリポジトリをforkして本サイトを準備したため、
+            一部の情報は公式サイトで公開されていた最終版ではない可能性があります
+            （例：453話以降はtwitterからjpg保存）。
+            また、検索用の登場キャラクターのインデックス情報などは多分に過不足や誤りが含まれます。
+          </p>
+          <p>
+            ゆるがりあ海外版の453話以降のデータを探しています（特に中文版）。
+          </p>
+          <p>
+            本サイトのソースは上記海外先駆者に従い<a
+              href="https://github.com/driftingraft/dragaliaLifeIndex"
+              target="_blank"
+              >Githubにてリポジトリを管理しています。</a
+            >
+            指摘点などがある場合、上記Githubのissueまたは
+            <a href="https://mobile.twitter.com/KOR_jiyugiga" target="_blank"
+              >twitter: @KOR_jiyugiga</a
+            >
+            までご連絡ください。
+          </p>
+          <p>
+            本サイトはドラガリアロスト開発運営、サイゲームス社、任天堂社のいずれとも関係ない
+            非営利の個人が運営しています。
+            また、当方ではこれら版権者の利益を阻害する意図はなく、
+            競合するサービスなどの提供が行われる場合には遅滞なく本サイト競合範囲の公開を停止いたします。
+          </p>
+          <h4>(License)</h4>
+          <p>
+            Permission is hereby granted, free of charge, to any person
+            obtaining a copy of this software and associated documentation files
+            (the "Software"), to deal in the Software without restriction,
+            including without limitation the rights to use, copy, modify, merge,
+            publish, distribute, sublicense, and/or sell copies of the Software,
+            and to permit persons to whom the Software is furnished to do so,
+            subject to the following conditions:
+          </p>
+          <p>
+            The above copyright notice and this permission notice shall be
+            included in all copies or substantial portions of the Software.
+          </p>
+          <p>
+            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+            EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+            MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+            NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+            BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+            ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+            CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+            SOFTWARE.
+          </p>
+        </div>
+        <div>Icons from <a href="https://heroicons.com">Hero Icons</a></div>
+        <div class="bottom">
+          <a href="https://github.com/driftingraft/dragaliaLifeIndex">
+            <img src="../files/github-mark.svg" class="github-logo" />Github
+          </a>
+          <a href="https://mobile.twitter.com/KOR_jiyugiga" target="_blank">
+            <img
+              src="../files/twitter_icon.svg"
+              class="twitter-logo"
+            />twitter</a
+          >
+          <a href="https://wiki2.vio-rhyse-alberia.info/wiki/"
+            ><img src="../favicon.ico" class="halidom-logo" />聖城wiki</a
+          >
+        </div>
+      </div>
+    </div>
     <div class="comics"></div>
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+      function toggleAbout() {
+        document.querySelector("#about").classList.toggle("hidden");
+        document.querySelector("body").classList.toggle("disableScroll");
+      }
+    </script>
   </body>
 </html>

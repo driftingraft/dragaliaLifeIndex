@@ -151,6 +151,8 @@ hr {
   text-align: center;
   box-sizing: border-box;
   padding-bottom: 50px;
+  overflow-y: scroll;
+  max-height: 80%;
 }
 .disableScroll {
   overflow: hidden;
@@ -170,7 +172,7 @@ hr {
   height: 100%;
 }
 #about .bottom {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   left: 0;
   width: 100%;
@@ -452,7 +454,8 @@ h1.minis::after {
   border-right-color: transparent;
 }
 img.github-logo,
-img.twitter-logo {
+img.twitter-logo,
+img.halidom-logo {
   height: 1em;
   vertical-align: text-bottom;
 }
