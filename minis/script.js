@@ -46,8 +46,8 @@ async function init() {
     '>简</a> <a href="index.html?lan=cht" ' +
     `${lan == "cht" ? 'class="selected"' : "class"}` +
     "> 繁</a>";
-  document.querySelector(".top .local").innerHTML += localOutput;
-  document.querySelector("li.local").innerHTML += localOutput;
+  //  document.querySelector(".top .local").innerHTML += localOutput;
+  //  document.querySelector("li.local").innerHTML += localOutput;
 }
 function loadCard(numCards = 24) {
   for (i = 0; i < numCards; i++) {

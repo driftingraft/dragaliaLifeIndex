@@ -51,8 +51,8 @@ async function init() {
     '>简</a> <a href="index.html?lan=cht" ' +
     `${lan == "cht" ? 'class="selected"' : "class"}` +
     "> 繁</a>";
-  document.querySelector(".top .local").innerHTML += localOutput;
-  document.querySelector("li.local").innerHTML += localOutput;
+  //  document.querySelector(".top .local").innerHTML += localOutput;
+  //  document.querySelector("li.local").innerHTML += localOutput;
 
   search();
 }
