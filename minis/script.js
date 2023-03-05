@@ -56,7 +56,7 @@ function loadCard(numCards = 24) {
     }
     let targetLocal = lan + "Name";
     let numb = currentComic - 1;
-    console.log();
+    // console.log();
     let imgSrc = comicArray[numb] + ".jpg";
     let outputHTML =
       "<a class='card comicCard' href='comic.html?no=" +

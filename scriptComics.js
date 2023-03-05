@@ -98,7 +98,7 @@ function loadComicBelow() {
 
   _characters.forEach((element) => {
     characters.push(charObject[element]["0"]);
-    console.log(charObject[element]["0"]);
+    // console.log(charObject[element]["0"]);
   });
   let outputHTML =
     `<h1 class='life episode' ep='${numb}'>` +
@@ -133,13 +133,13 @@ window.addEventListener("scroll", () => {
     } else {
       numb = conNumb.toString();
     }
-    if (history.pushState) {
+    /*if (history.pushState) {
       window.history.pushState(
         "test",
         "test",
         "comic.html?no=" + numb + "&lan=" + lan
       );
-    }
+    }*/
     loadComicBelow();
   }
 });

@@ -108,13 +108,13 @@ window.addEventListener("scroll", () => {
     } else {
       numb = conNumb.toString();
     }
-    if (history.pushState) {
+    /*if (history.pushState) {
       window.history.pushState(
         "test",
         "test",
         "comic.html?no=" + numb + "&lan=" + lan
       );
-    }
+    }*/
     loadComicBelow();
   }
 });

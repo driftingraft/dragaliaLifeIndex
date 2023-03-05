@@ -63,7 +63,7 @@ function search() {
   }
   let query = params.get("cq");
   //Search by Comic Name
-  console.log(query);
+  // console.log(query);
   let nameSearchOutput = [];
   let nameHTML = "";
   for (i = 0; i < comicArray.length; i++) {
@@ -96,20 +96,20 @@ function search() {
       " </div></div></a>\n";
   }
   document.querySelector("#name .comics").innerHTML += nameHTML;
-  console.log(nameSearchOutput);
+  // console.log(nameSearchOutput);
   //Search characters
   let comicCharOutput = [];
   let charHTML = "";
   let characterResult;
   for (i = 0; i < charArray.length; i++) {
     if (charArray[i].toLowerCase() == query.toLowerCase()) {
-      console.log("CHARACTER IS: " + charArray[i]);
+      // console.log("CHARACTER IS: " + charArray[i]);
       characterResult = charArray[i];
       break;
     }
     for (h = 0; h < charObject[charArray[i]].length; h++) {
       if (charObject[charArray[i]][h].includes(query)) {
-        console.log("CHARACTER IS: " + charArray[i]);
+        // console.log("CHARACTER IS: " + charArray[i]);
         characterResult = charArray[i];
         break;
       }

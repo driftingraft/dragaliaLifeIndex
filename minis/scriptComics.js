@@ -103,9 +103,9 @@ function loadComicBelow() {
   _characters.forEach((element) => {
     try {
       characters.push(charObject[element]["0"]);
-      //console.log(charObject[element]["0"]);
+      //// console.log(charObject[element]["0"]);
     } catch (e) {
-      console.log(element);
+      // console.log(element);
     }
   });
   let outputHTML =
