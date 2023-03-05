@@ -1,0 +1,695 @@
+{
+  "001": {
+    "jpName": "お花見だって。",
+    "characters": ["Zodiark", "Midgardsormr", "Brunhilda", "Jupiter", "Mercury"]
+  },
+  "002": {
+    "jpName": "もちもちもち。__#タピオカミルクティ",
+    "characters": ["Brunhilda", "Jupiter", "Midgardsormr"]
+  },
+  "003": {
+    "jpName": "今日はエイプリルフールだよ。__#ラーメン ",
+    "characters": ["Mercury", "Long Long", "Jupiter"]
+  },
+  "004": {
+    "jpName": "クッキーは手作り。",
+    "characters": ["Brunhilda", "Mercury", "Poli?ahu"]
+  },
+  "005": {
+    "jpName": "プリンおいしい。__#マキュの",
+    "characters": ["Midgardsormr", "Zodiark", "Ifrit", "Agni", "Brunhilda"]
+  },
+  "006": {
+    "jpName": "真マーキュリー。",
+    "characters": ["Prometheus", "High Mercury", "Phoenix"]
+  },
+  "007": {
+    "jpName": "ポテチにプリンにメロンソーダ。__#うりぼうも一緒に遊びたがってるのかな",
+    "characters": ["Snow Drake", "Mercury"]
+  },
+  "008": {
+    "jpName": "あつまるあつまる。",
+    "characters": ["Zodiark", "Juggernaut (Dragon)|Juggernaut", "Midgardsormr"]
+  },
+  "009": { "jpName": "ゆきだま♪", "characters": ["Midgardsormr", "Maritimus"] },
+  "010": {
+    "jpName": "ドラガリアロスト～♪",
+    "characters": ["Jupiter", "Jeanne d'Arc", "Maritimus"]
+  },
+  "011": { "jpName": "とべないの。", "characters": ["Jupiter", "Marishiten"] },
+  "012": {
+    "jpName": "うもれる。",
+    "characters": ["Midgardsormr", "Lindworm", "Konohana Sakuya"]
+  },
+  "013": { "jpName": "むっきむき。", "characters": ["Midgardsormr"] },
+  "014": {
+    "jpName": "ドラコ__ファフニール__ファフニ・ロイIII世←New!",
+    "characters": [
+      "Gold Fafnir (Dragon)|Gold Fafnir",
+      "Silver Fafnir (Dragon)|Silver Fafnir",
+      "Bronze Fafnir (Dragon)|Bronze Fafnir",
+      "Moon Drake",
+      "Gloom Drake",
+      "Cinder Drake",
+      "Snow Drake",
+      "Gust Drake",
+      "Fafnir Roy III"
+    ]
+  },
+  "015": { "jpName": "雨のおでかけ。", "characters": ["Garuda", "Cupid"] },
+  "016": {
+    "jpName": "今度食べに行こうね！",
+    "characters": ["Shinobi", "Shishimai"]
+  },
+  "017": {
+    "jpName": "※良くなりません。",
+    "characters": ["Pazuzu", "Jupiter", "Poseidon"]
+  },
+  "018": {
+    "jpName": "歩けトス。__#熱血皆無",
+    "characters": ["Jupiter", "Mercury", "Arctos"]
+  },
+  "019": {
+    "jpName": "真ユピテル。",
+    "characters": ["Midgardsormr", "Brunhilda", "Jupiter", "Humanoid Jupiter"]
+  },
+  "020": {
+    "jpName": "ドラゴンはみんな仲良し。",
+    "characters": ["Brunhilda", "Jeanne d'Arc"]
+  },
+  "021": { "jpName": "これからずっと一緒。__#髪飾り", "characters": ["Siren"] },
+  "022": {
+    "jpName": "やだなぁ～こわいなぁ～。",
+    "characters": ["Erasmus", "Midgardsormr", "Cupid", "Silke"]
+  },
+  "023": {
+    "jpName": "ステージ前の楽屋。",
+    "characters": ["Midgardsormr", "Gloom Drake", "Pop-Star Siren", "Brunhilda"]
+  },
+  "024": {
+    "jpName": "夏祭り。",
+    "characters": [
+      "Shishimai",
+      "Snow Drake",
+      "Agni",
+      "Brunhilda",
+      "Midgardsormr"
+    ]
+  },
+  "025": {
+    "jpName": "好きな食べ物は？",
+    "characters": ["Midgardsormr", "Marishiten", "Vayu"]
+  },
+  "026": {
+    "jpName": "お月見の夜。",
+    "characters": ["Brunhilda", "Midgardsormr", "Zodiark"]
+  },
+  "027": {
+    "jpName": "真ゾディアーク。",
+    "characters": ["Jupiter", "Midgardsormr", "Zodiark", "High Zodiark"]
+  },
+  "028": {
+    "jpName": "もうすぐ1周年！",
+    "characters": ["Brunhilda", "Zodiark", "Midgardsormr", "Mercury", "Jupiter"]
+  },
+  "029": {
+    "jpName": "しもしも？",
+    "characters": ["Brunhilda", "Mercury", "Midgardsormr", "Chthonius"]
+  },
+  "030": { "jpName": "望み。", "characters": ["Chronos (NPC)"] },
+  "031": {
+    "jpName": "カミングスーン。",
+    "characters": [
+      "Midgardsormr",
+      "Brunhilda",
+      "Maritimus",
+      "Halloween Maritimus",
+      "Arctos"
+    ]
+  },
+  "032": {
+    "jpName": "衝撃のラスト！！",
+    "characters": ["Brunhilda", "Maritimus", "Midgardsormr", "Arctos"]
+  },
+  "033": {
+    "jpName": "白と黒",
+    "characters": ["Nyarlathotep (NPC)", "Long Long", "Nyarlathotep"]
+  },
+  "034": { "jpName": "どの味にする？", "characters": ["Hastur"] },
+  "035": { "jpName": "秋の湯。", "characters": ["Kagutsuchi", "Freyja"] },
+  "036": {
+    "jpName": "ドラガリバーガー。",
+    "characters": ["Phoenix", "Jupiter"]
+  },
+  "037": { "jpName": "わんわん。", "characters": ["Kamuy"] },
+  "038": {
+    "jpName": "もあもあはふはふ。",
+    "characters": ["Stribog", "Vodyanoy"]
+  },
+  "039": {
+    "jpName": "治療＆リフレッシュ！",
+    "characters": ["Corsaint Phoenix"]
+  },
+  "040": {
+    "jpName": "HAPPY HOLIDAYS!",
+    "characters": [
+      "Yulong",
+      "Prometheus",
+      "Cupid",
+      "Midgardsormr",
+      "Cinder Drake",
+      "Jupiter",
+      "Gold Fafnir (Dragon)|Gold Fafnir"
+    ]
+  },
+  "041": {
+    "jpName": "今年も1年ありがとうございました！__来年もよろしくお願いします。",
+    "characters": [
+      "Gust Drake",
+      "Silke",
+      "Jeanne d'Arc",
+      "Gloom Drake",
+      "Jupiter",
+      "Zodiark",
+      "Midgardsormr",
+      "Mercury",
+      "Prometheus",
+      "Brunhilda"
+    ]
+  },
+  "042": { "jpName": "今年の一文字。", "characters": ["Ebisu", "Daikokuten"] },
+  "043": {
+    "jpName": "成人の日。",
+    "characters": [
+      "Apollo",
+      "Marishiten",
+      "Konohana Sakuya",
+      "Brunhilda",
+      "Midgardsormr",
+      "Gilgamesh"
+    ]
+  },
+  "044": {
+    "jpName": "雪合戦。",
+    "characters": [
+      "Midgardsormr",
+      "Ifrit",
+      "AC-011 Garland",
+      "Maritimus",
+      "Shinobi"
+    ]
+  },
+  "045": {
+    "jpName": "春節。",
+    "characters": [
+      "Peng Lai",
+      "Midgardsormr",
+      "Mercury",
+      "Brunhilda",
+      "Jupiter",
+      "Zodiark"
+    ]
+  },
+  "046": {
+    "jpName": "一緒に肉焼き。__#モンハン",
+    "characters": ["Midgardsormr", "Rathalos"]
+  },
+  "047": {
+    "jpName": "4兄弟。",
+    "characters": ["Atlas", "Epimetheus", "Prometheus", "Menoetius"]
+  },
+  "048": { "jpName": "Let's 改造☆", "characters": ["Gala Mars"] },
+  "049": {
+    "jpName": "らぶ♡",
+    "characters": ["Midgardsormr", "Cupid", "Phantom"]
+  },
+  "050": { "jpName": "パンケーキ。", "characters": ["Nimis", "Midgardsormr"] },
+  "051": {
+    "jpName": "せんべいうまい。__#レイドボス",
+    "characters": ["Thanatos", "Qitian Dasheng", "Phraeganoth"]
+  },
+  "052": {
+    "jpName": "ぷちょへんざっ。__#ラップ",
+    "characters": ["Ariel", "Astral Imp", "Pallid Imp", "Apollo"]
+  },
+  "053": {
+    "jpName": "幸せだった…",
+    "characters": ["Zodiark", "Jupiter", "Mercury", "Brunhilda", "Midgardsormr"]
+  },
+  "054": {
+    "jpName": "思い出。__#1.5Year Anniversary",
+    "characters": ["Zodiark", "Audric"]
+  },
+  "055": {
+    "jpName": "ピトッ。",
+    "characters": ["Snow Drake", "Maritimus", "Andromeda", "Midgardsormr"]
+  },
+  "056": {
+    "jpName": "ゆめかわどりーみん。",
+    "characters": ["Gaibhne &amp; Creidhne"]
+  },
+  "057": {
+    "jpName": "おすしおいしい。",
+    "characters": ["Zodiark", "Leviathan", "Nidhogg"]
+  },
+  "058": {
+    "jpName": "待ってた。",
+    "characters": ["Shishimai", "Ebisu", "Pele", "Jupiter"]
+  },
+  "059": {
+    "jpName": "FIRE EMBLEM 新たなるおにわ。__#FEヒーローズ",
+    "characters": [
+      "Zodiark",
+      "Brunhilda",
+      "Midgardsormr",
+      "Jupiter",
+      "Divine Dragon|Tiki",
+      "Mercury"
+    ]
+  },
+  "060": { "jpName": "幼なじみ。", "characters": ["Cerberus", "Azazel"] },
+  "061": { "jpName": "たいりょう〜。", "characters": ["Leviathan", "Ebisu"] },
+  "062": {
+    "jpName": "みんなでゲーム。",
+    "characters": ["Zodiark", "Brunhilda", "Jupiter", "Midgardsormr", "Mercury"]
+  },
+  "063": {
+    "jpName": "中華料理って美味しいよね。",
+    "characters": [
+      "Brunhilda",
+      "Midgardsormr",
+      "Niu Mowang",
+      "Tie Shan Gongzhu"
+    ]
+  },
+  "064": {
+    "jpName": "ともだち。",
+    "characters": ["Qitian Dasheng", "Mei Hou Wang", "Peng Lai"]
+  },
+  "065": {
+    "jpName": "ジューンブライド。",
+    "characters": [
+      "Silke",
+      "Nimis",
+      "Ariel",
+      "AC-011 Garland",
+      "Phoenix",
+      "Brunhilda"
+    ]
+  },
+  "066": { "jpName": "どうぞ。", "characters": ["Morsayati", "Magma Slime"] },
+  "067": { "jpName": "ケットシー。", "characters": ["Gala Cat Sith"] },
+  "068": {
+    "jpName": "仲良しステュクス。",
+    "characters": ["Sam", "Styx (NPC)"]
+  },
+  "069": {
+    "jpName": "夕飯なにする。",
+    "characters": ["Simurgh", "Mercury", "Freyja", "Chronos (NPC)", "Maritimus"]
+  },
+  "070": {
+    "jpName": "ユピテルの妄想。",
+    "characters": ["Brunhilda", "Mercury", "Jupiter", "Humanoid Mercury"]
+  },
+  "071": {
+    "jpName": "ひぃちゃん。",
+    "characters": ["Palm Treant", "Summer Konohana Sakuya", "Midgardsormr"]
+  },
+  "072": {
+    "jpName": "夏！",
+    "characters": [
+      "Chronos (NPC)",
+      "Midgardsormr",
+      "Epimetheus",
+      "Siren",
+      "Prometheus",
+      "Phoenix",
+      "Ariel"
+    ]
+  },
+  "073": { "jpName": "たまやー。", "characters": ["Midgardsormr", "Mercury"] },
+  "074": {
+    "jpName": "ダーリン♡",
+    "characters": ["The Prince", "Brunhilda", "Jupiter", "Zodiark", "Mercury"]
+  },
+  "075": { "jpName": "目玉焼きにはソース派。", "characters": ["Gala Thor"] },
+  "076": { "jpName": "たまに毒舌。", "characters": ["Ramiel"] },
+  "077": { "jpName": "ハチミツ。", "characters": ["Sandalphon"] },
+  "078": {
+    "jpName": "ホルスと壁画。",
+    "characters": ["Jupiter", "Horus", "Midgardsormr"]
+  },
+  "079": { "jpName": "本番前。", "characters": ["Notte", "Midgardsormr"] },
+  "080": {
+    "jpName": "2周年、ありがとう！__#ドラガリ2周年",
+    "characters": ["The Prince", "Brunhilda"]
+  },
+  "081": {
+    "jpName": "前世。__#ドラガリ2周年",
+    "characters": ["Midgardsormr", "Midgardsormr Zero"]
+  },
+  "082": {
+    "jpName": "やつらが動き出す。",
+    "characters": ["Nidhogg", "Midgardsormr", "Maritimus", "Snow Drake"]
+  },
+  "083": {
+    "jpName": "ほくほく。",
+    "characters": ["Brunhilda", "Midgardsormr", "Nimis"]
+  },
+  "084": {
+    "jpName": "はっぴーはろうぃん。",
+    "characters": [
+      "Midgardsormr",
+      "Brunhilda",
+      "Gala Cat Sith",
+      "Mercury",
+      "Jupiter",
+      "Zodiark"
+    ]
+  },
+  "085": { "jpName": "腰痛治った。", "characters": ["Gala Reborn Poseidon"] },
+  "086": {
+    "jpName": "◜ᴗ◝",
+    "characters": ["Midgardsormr", "Jupiter", "Giovanni"]
+  },
+  "087": {
+    "jpName": "なにして遊ぶ？",
+    "characters": ["Midgardsormr", "Brunhilda", "Gala Mars", "Jeanne d'Arc"]
+  },
+  "088": {
+    "jpName": "そろそろカレー。",
+    "characters": ["Gala Mars", "Gala Leonidas"]
+  },
+  "089": {
+    "jpName": "やばいですね☆__#プリコネ__#プリコネR",
+    "characters": ["Lumiere Pandora", "Pecorine"]
+  },
+  "090": {
+    "jpName": "どれにしようかな。",
+    "characters": ["Chronos (NPC)|Chronos", "Aether (NPC)|Aether"]
+  },
+  "091": {
+    "jpName": "もうすぐ星竜祭。",
+    "characters": ["Midgardsormr", "Brunhilda", "Mercury", "Jupiter", "Zodiark"]
+  },
+  "092": { "jpName": "ヨロシクヤン。", "characters": ["Gala Reborn Zephyr"] },
+  "093": {
+    "jpName": "よいお年を。",
+    "characters": ["Midgardsormr", "Brunhilda", "Mercury", "Jupiter", "Zodiark"]
+  },
+  "094": { "jpName": "モウ怖くない。", "characters": ["Gozu Tenno"] },
+  "095": { "jpName": "がぶがぶ。", "characters": ["Liger", "Maritimus"] },
+  "096": { "jpName": "🤔", "characters": ["Midgardsormr"] },
+  "097": { "jpName": "My Dear💕", "characters": ["Chelle", "Gala Cat Sith"] },
+  "098": {
+    "jpName": "ドラガリ × P5S__#P5S__#アルセーヌ",
+    "characters": ["Arsene", "Midgardsormr", "Joker"]
+  },
+  "099": {
+    "jpName": "ドラガリ × P5S__#P5S__#カルメン",
+    "characters": ["Brunhilda", "Carmen (Persona)", "Panther"]
+  },
+  "100": {
+    "jpName": "100回目　ありがとう！",
+    "characters": [
+      "Midgardsormr",
+      "Brunhilda",
+      "Mercury",
+      "Jupiter",
+      "Zodiark",
+      "Chthonius",
+      "Gala Mars",
+      "Gala Thor",
+      "Agni",
+      "Zephyr",
+      "Jeanne d'Arc",
+      "Nidhogg",
+      "Poseidon",
+      "Maritimus",
+      "Nyarlathotep",
+      "Gala Cat Sith",
+      "Juggernaut",
+      "Phoenix",
+      "Lindworm",
+      "Poli'ahu",
+      "Unicorn",
+      "Stribog",
+      "Ifrit",
+      "Silke"
+    ]
+  },
+  "101": {
+    "jpName": "強くなれ。",
+    "characters": ["Menoetius", "Epimetheus", "Prometheus"]
+  },
+  "102": { "jpName": "シュワワワ。", "characters": ["Gala Reborn Jeanne"] },
+  "103": { "jpName": "溺愛。", "characters": ["Gabriel"] },
+  "104": {
+    "jpName": "きっとクール。",
+    "characters": [
+      "Midgardsormr",
+      "Zodiark",
+      "Humanoid Midgardsormr",
+      "Jupiter"
+    ]
+  },
+  "105": { "jpName": "すやール。", "characters": ["Mercury", "Emile"] },
+  "106": {
+    "jpName": "真プルートー。",
+    "characters": ["High Chthonius", "Brunhilda", "Midgardsormr"]
+  },
+  "107": {
+    "jpName": "ワンダフルデイ！",
+    "characters": ["Puppy", "Midgardsormr"]
+  },
+  "108": {
+    "jpName": "ぱりぱりぼりぼり。",
+    "characters": ["Brunhilda", "Chthonius"]
+  },
+  "109": {
+    "jpName": "分かるかな？",
+    "characters": ["Humanoid Mercury", "Child Ranzal"]
+  },
+  "110": {
+    "jpName": "うさぎさんと仲良し。",
+    "characters": ["Gala Reborn Agni"]
+  },
+  "111": {
+    "jpName": "ローズクイーン。",
+    "characters": ["Rose Queen", "Zodiark", "Midgardsormr"]
+  },
+  "112": {
+    "jpName": "お茶会。",
+    "characters": ["Rose Queen", "Cerberus", "Azazel"]
+  },
+  "113": {
+    "jpName": "しのびとは。",
+    "characters": ["Shinobi", "Brunhilda", "Shishimai"]
+  },
+  "114": { "jpName": "タレ派？塩派？", "characters": ["Roc", "Zephyr"] },
+  "115": { "jpName": "食えよ😁", "characters": ["Raphael"] },
+  "116": { "jpName": "ふふふーっふふーんふふーん♪", "characters": ["Ramiel"] },
+  "117": {
+    "jpName": "バクバクドキドキ。",
+    "characters": ["Phantom", "Felicia", "Brunhilda", "The Prince"]
+  },
+  "118": {
+    "jpName": "1000日ありがとう！",
+    "characters": ["Jupiter", "Zodiark", "Midgardsormr", "Brunhilda", "Mercury"]
+  },
+  "119": { "jpName": "キノコを食え🍄", "characters": ["Gala Reborn Nidhogg"] },
+  "120": {
+    "jpName": "海デート💖",
+    "characters": ["Brunhilda", "Leviathan", "Summer Mym"]
+  },
+  "121": {
+    "jpName": "勝負！",
+    "characters": ["Gozu Tenno", "Daikokuten", "Summer Marishiten"]
+  },
+  "122": { "jpName": "変身♪", "characters": ["Sylvia", "Hypnos"] },
+  "123": {
+    "jpName": "一緒に(？)砂遊び。",
+    "characters": ["Gala Mars", "Brunhilda", "Summer Mym"]
+  },
+  "124": {
+    "jpName": "Lazy summer days!!",
+    "characters": [
+      "Summer Cat Sith",
+      "Gala Mars",
+      "Summer Marishiten",
+      "Gozu Tenno",
+      "Daikokuten"
+    ]
+  },
+  "125": {
+    "jpName": "おにわのなつ🌻",
+    "characters": ["Midgardsormr", "Zodiark"]
+  },
+  "126": {
+    "jpName": "次何食べる？",
+    "characters": ["Brunhilda", "Silke", "Freyja", "Poli'ahu"]
+  },
+  "127": {
+    "jpName": "見えてる？",
+    "characters": ["Jupiter", "Mercury", "Zodiark", "Brunhilda"]
+  },
+  "128": { "jpName": "犬じゃなイ…？", "characters": ["Gala Beast Volk"] },
+  "129": {
+    "jpName": "はっけよい！",
+    "characters": ["Midgardsormr", "Takemikazuchi"]
+  },
+  "130": { "jpName": "大量生産。", "characters": ["Barbatos", "Lil' Barb"] },
+  "131": {
+    "jpName": "最速は誰だ？",
+    "characters": ["Midgardsormr", "Unicorn"]
+  },
+  "132": {
+    "jpName": "3rd Anniversary!__#ドラガリ3周年",
+    "characters": ["Zethia", "Mini Jupi"]
+  },
+  "133": {
+    "jpName": "遊びに来たよ。",
+    "characters": ["Gala Bahamut", "Rose Queen", "Cerberus", "Azazel"]
+  },
+  "134": {
+    "jpName": "てんしたちの。",
+    "characters": ["Raphael", "Michael", "Ramiel", "Sandalphon"]
+  },
+  "135": {
+    "jpName": "ごはん。",
+    "characters": ["Sandalphon", "Uriel", "Gabriel"]
+  },
+  "136": {
+    "jpName": "HAPPY HALLOWEEN🎃",
+    "characters": [
+      "Humanoid Midgardsormr",
+      "Humanoid Mercury",
+      "Brunhilda",
+      "Jupiter",
+      "Zodiark"
+    ]
+  },
+  "137": { "jpName": "我が王💖", "characters": ["Gala Chronos Nyx"] },
+  "138": { "jpName": "ごまかせないよ!!", "characters": ["Humanoid Jupiter"] },
+  "139": { "jpName": "旅はいいぞ。", "characters": ["Uriel"] },
+  "140": {
+    "jpName": "仲良し夫婦❤️",
+    "characters": ["Niu Mowang", "Tie Shan Gongzhu"]
+  },
+  "141": {
+    "jpName": "お肉だいすき。",
+    "characters": ["Siren", "Marishiten", "Gozu Tenno", "Jupiter"]
+  },
+  "142": {
+    "jpName": "いい子にしてたかな？",
+    "characters": ["Nevin", "Ramiel", "Brunhilda", "Midgardsormr"]
+  },
+  "143": {
+    "jpName": "かたづけようね。",
+    "characters": ["Satan", "Bahamut", "Azazel", "Rose Queen", "Cerberus"]
+  },
+  "144": { "jpName": "進化～。", "characters": ["Ayaha &amp; Otoha"] },
+  "145": {
+    "jpName": "ズズッ。",
+    "characters": ["Ayaha &amp; Otoha", "Ciella", "Tartarus", "Volk", "Kai Yan"]
+  },
+  "146": { "jpName": "1杯5ルピ。", "characters": ["Fudo Myo-o"] },
+  "147": {
+    "jpName": "こっちにおいで？",
+    "characters": ["Midgardsormr", "Tsukuyomi"]
+  },
+  "148": {
+    "jpName": "カレイドラビリンス。",
+    "characters": ["Midgardsormr", "Fafnir Roy IV"]
+  },
+  "149": {
+    "jpName": "うぃんたーすぽーつ。",
+    "characters": ["Midgardsormr", "Brunhilda", "Zodiark"]
+  },
+  "150": {
+    "jpName": "せんぱいたち。",
+    "characters": [
+      "Midgardsormr",
+      "Gala Mars",
+      "Gala Thor",
+      "Uranus",
+      "Gala Cat Sith"
+    ]
+  },
+  "151": { "jpName": "おさんぽ。", "characters": ["Michael", "Basileus"] },
+  "152": {
+    "jpName": "わんだふるばれんたいん。",
+    "characters": ["Brunhilda", "Mercury"]
+  },
+  "153": {
+    "jpName": "ミステリアス…？",
+    "characters": ["Humanoid Zodiark", "Jupiter", "Brunhilda", "Zodiark"]
+  },
+  "154": { "jpName": "人の仔よ…。", "characters": ["Gala Elysium"] },
+  "155": {
+    "jpName": "まごころ注入💗",
+    "characters": [
+      "Maritimus",
+      "Ebisu",
+      "Homura",
+      "Gloom Drake",
+      "Kindling Imp",
+      "Wellspring Imp",
+      "Gust Drake",
+      "Hinata"
+    ]
+  },
+  "156": {
+    "jpName": "兄様、何してる？",
+    "characters": ["Atlas", "Prometheus", "Epimetheus", "Menoetius"]
+  },
+  "157": {
+    "jpName": "❤️❤️❤️ダーリン❤️❤️❤️",
+    "characters": ["Primal Brunhilda", "Brunhilda"]
+  },
+  "158": {
+    "jpName": "フレンドリー？",
+    "characters": ["True Bahamut", "Satan", "Cerberus", "Bahamut"]
+  },
+  "159": { "jpName": "ピチピチだ。", "characters": ["Primal Zodiark"] },
+  "160": {
+    "jpName": "中身は変わりませんよ。",
+    "characters": ["Primal Mercury"]
+  },
+  "161": { "jpName": "じゃじゃーん☆", "characters": ["Primal Jupiter"] },
+  "162": {
+    "jpName": "みんなで力を合わせて！",
+    "characters": [
+      "Xenos",
+      "Brunhilda",
+      "Mercury",
+      "Midgardsormr",
+      "Jupiter",
+      "Zodiark"
+    ]
+  },
+  "163": {
+    "jpName": "みんなありがとう。__#おにわ最終回",
+    "characters": [
+      "Uranus",
+      "Zephyr",
+      "Chthonius",
+      "Gala Mars",
+      "Poseidon",
+      "Zephyr Imp",
+      "Hikage",
+      "Jupiter",
+      "Mercury",
+      "Jeanne d'Arc",
+      "Midgardsormr",
+      "Nidhogg",
+      "Gala Thor",
+      "Agni",
+      "Gala Cat Sith",
+      "Gala Chronos Nyx",
+      "Brunhilda",
+      "Zodiark",
+      "Cinder Drake"
+    ]
+  }
+}
