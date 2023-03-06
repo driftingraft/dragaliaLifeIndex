@@ -97,6 +97,7 @@ function loadComicBelow() {
   let characters = [];
 
   _characters.forEach((element) => {
+    console.log(charObject[element]["0"]);
     characters.push(charObject[element]["0"]);
     // console.log(charObject[element]["0"]);
   });
@@ -112,7 +113,7 @@ function loadComicBelow() {
     lan +
     "/" +
     numb +
-    (numb > 452 ? ".jpg'>" : ".png'>") +
+    (numb > 452 || numb == 450 ? ".jpg'>" : ".png'>") +
     `</div>`;
   container.innerHTML += outputHTML;
 
